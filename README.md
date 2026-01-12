@@ -1,112 +1,118 @@
-# soc2-portfolio-
-Service Organisations Control 2 Audit (SOC-2) Audit Work 
+# SOC 2 Portfolio  
+**Service Organization Control (SOC 2) – Practical Audit & Readiness Work**
 
+This repository is a **hands-on SOC 2 portfolio** designed to demonstrate how SOC 2 is implemented, assessed, and operated in real-world service organizations—beyond theory and checklists.
 
-What is SOC 2?
+---
 
-SOC 2 (System and Organization Controls 2) is an independent assurance report developed by the American Institute of Certified Public Accountants (AICPA). It evaluates how a service organization designs and operates controls to protect customer data and systems.
+## 🔐 What is SOC 2?
 
-SOC 2 assessments are based on the Trust Services Criteria (TSC), which include:
+**SOC 2 (System and Organization Controls 2)** is an independent assurance report developed by the **American Institute of Certified Public Accountants (AICPA)**. It evaluates how effectively a service organization **designs and operates controls** to protect customer data and systems.
 
-Security (mandatory)
+SOC 2 assessments are based on the **Trust Services Criteria (TSC):**
 
-Availability
+- **Security** *(mandatory)*
+- **Availability**
+- **Confidentiality**
+- **Processing Integrity**
+- **Privacy**
 
-Confidentiality
+> 💡 Unlike ISO/IEC 27001, SOC 2 is **not a certification**.  
+> It is an **attestation report** issued by a licensed CPA firm, based on evidence collected and tested during an audit period.
 
-Processing Integrity
+---
 
-Privacy
+## 🏢 Who Typically Needs SOC 2?
 
-Unlike ISO 27001, SOC 2 is not a certification. It is an attestation report issued by a licensed CPA firm, providing customers with assurance that appropriate controls are in place and operating effectively.
+SOC 2 is commonly required by organizations such as:
 
-SOC 2 is widely required by:
+- SaaS companies  
+- Cloud service providers  
+- FinTech and payment platforms  
+- B2B technology vendors  
+- Data processors handling sensitive or regulated customer data  
 
-SaaS companies
+---
 
-Cloud service providers
+## 🚀 What This Repository Demonstrates
 
-FinTechs
+This repository showcases **end-to-end SOC 2 capability**, structured exactly as a real consulting or in-house compliance engagement.
 
-B2B technology vendors
+You will see how to:
 
-Data processors handling sensitive customer data
+### 🧠 Control Design & Readiness
+- Translate **SOC 2 Trust Services Criteria** into implementable controls  
+- Design a **SOC 2 readiness program from scratch**
+- Apply **risk-based thinking** to control selection and prioritization  
 
-What These Projects Demonstrate
+### 📁 Auditor-Ready Artifacts
+Create and manage artifacts auditors expect to see, including:
+- Control matrices (CC1–CC9)
+- Policies and procedures
+- Risk registers
+- Evidence checklists
 
-This repository demonstrates practical, end-to-end SOC 2 capability, covering the full lifecycle of a real-world engagement.
+### ☁️ Cloud & Shared Responsibility
+- Map **AWS services** to SOC 2 requirements  
+- Identify **shared responsibility gaps** between cloud providers and customers  
+- Align infrastructure design with compliance expectations  
 
-Specifically, these projects show the ability to:
+### 🧾 Evidence & Audit Simulation
+- Simulate audit-grade evidence such as:
+  - Access requests and approvals
+  - Change management records
+  - Incident response documentation
+- Think like an auditor by focusing on:
+  - Control ownership
+  - Consistency over time
+  - Traceability from risk → control → evidence
 
-Translate SOC 2 Trust Services Criteria into implementable controls
+---
 
-Design a SOC 2 readiness program from scratch
+## 🧪 Simulated but Auditor-Accurate SOC 2 Program
 
-Create auditor-ready artifacts such as:
+This repository represents a **simulated SOC 2 program** created for **learning, demonstration, and portfolio purposes**.
 
-Control matrices
+### ❗ Important Clarifications
+- ❌ This is **not** an official SOC 2 audit  
+- ❌ No CPA firm has issued a SOC 2 report for this repository  
+- ❌ This does **not** claim SOC 2 certification or compliance  
 
-Policies and procedures
+### ✅ What *Is* Accurate
+- Controls align with **AICPA Trust Services Criteria**
+- Structure mirrors **real SOC 2 Type I and Type II engagements**
+- Evidence examples reflect what auditors typically request and test
+- Control design follows **industry-standard audit expectations**
 
-Risk registers
+> 🎯 **Goal:** Demonstrate audit readiness, control maturity, and operational SOC 2 understanding—not to replace a formal audit.
 
-Evidence checklists
+---
 
-Map cloud infrastructure (AWS) to SOC 2 requirements
+## 🗂️ Repository Structure (High Level)
 
-Apply the shared responsibility model in a compliance context
+### **Project 1 – SOC 2 Readiness Program**
+- Control matrix aligned to **CC1–CC9**
+- Core policies and procedures
+- Evidence checklist
+- Risk register with mitigation mapping
 
-Simulate audit-grade evidence including:
+### **Project 2 – Cloud SOC 2 Mapping (AWS)**
+- AWS architecture overview
+- Mapping AWS services to SOC 2 controls
+- Shared responsibility gap analysis
 
-Access requests and approvals
+### **Project 3 – Evidence Automation & Audit Simulation**
+- Simulated Jira tickets for access and changes
+- IAM access review logs
+- Incident response tabletop exercises
 
-Change management records
+---
 
-Incident response documentation
+## 🧑‍💼 Who This Is For
 
-Think from an auditor’s perspective, focusing on:
+- GRC & Compliance professionals  
+- SOC analysts and security engineers  
+- Cloud security practitioners  
+- Anyone preparing for **SOC 2 readiness, audits, or consulting roles**
 
-Control ownership
-
-Consistency
-
-Traceability
-
-Risk-based decision-making
-
-The projects are structured exactly as they would be in a consulting or in-house security/compliance role.
-
-Simulated but Auditor-Accurate SOC 2 Program
-
-This repository represents a simulated SOC 2 program, created for learning, demonstration, and portfolio purposes.
-
-Important clarifications:
-
-❌ This is not an official SOC 2 audit
-
-❌ No CPA firm has issued a SOC 2 report for this repository
-
-❌ This does not claim SOC 2 certification or compliance
-
-However:
-
-✅ The controls, artifacts, and workflows are aligned with AICPA Trust Services Criteria
-
-✅ The structure mirrors real SOC 2 Type I and Type II engagements
-
-✅ Evidence examples reflect what auditors typically request and test
-
-✅ Control design follows industry-standard audit expectations
-
-The intent is to demonstrate audit readiness, control design maturity, and SOC 2 operational understanding, not to replace a formal audit.
-
-Repository Structure (High Level)
-
-Project 1 – SOC 2 Readiness Program
-Control matrix, policies, evidence checklist, and risk register aligned to CC1–CC9.
-
-Project 2 – Cloud SOC 2 Mapping (AWS)
-AWS architecture mapping to SOC 2 controls and shared responsibility gap analysis.
-
-Project 3 – Evidence Automation & Audit Simulation
-Simulated Jira tickets, IAM access reviews, and incident response tabletop exercises.
+Feel free to explore, fork, or adapt these projects to build your own **auditor-ready SOC 2 portfolio**.
